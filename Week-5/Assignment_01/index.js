@@ -1,16 +1,16 @@
 const sleep = (ms) => new Promise((res, _) => setTimeout(res), ms);
 
-async function doTask1() {
+function doTask1() {
     sleep(1000);
     console.log("task1");
 }
 
-async function doTask2() {
+function doTask2() {
     sleep(2000);
     console.log("task2");
 }
 
-async function doTask3() {
+function doTask3() {
     sleep(3000);
     console.log("task3");
 }
