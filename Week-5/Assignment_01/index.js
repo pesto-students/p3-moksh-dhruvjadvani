@@ -1,20 +1,27 @@
 const sleep = (ms) => new Promise((res, _) => setTimeout(res), ms);
 
-function doTask1() {
+const doTask1 = () => {
     sleep(1000);
     console.log("task1");
 }
 
-function doTask2() {
+const doTask2 = () => {
     sleep(2000);
-    console.log("task2");
+    console.log("task1");
 }
 
-function doTask3() {
+const doTask3 = () => {
     sleep(3000);
-    console.log("task3");
+    console.log("task1");
 }
 
+async function Asnfun() {
+    await doTask1();
+    await doTask2();
+    await doTask3();
+}
+
+Asnfun();
 
 function * Genfun() {
     yield doTask1();
@@ -26,14 +33,3 @@ let a= Genfun();
 console.log(a.next());
 console.log(a.next());
 console.log(a.next());
-
-async function Asnfun() {
-    await doTask1();
-    await doTask2();
-    await doTask3();
-}
-
-Asnfun();
-
-
-
