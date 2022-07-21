@@ -7,12 +7,12 @@ const doTask1 = () => {
 
 const doTask2 = () => {
     sleep(2000);
-    console.log("task1");
+    console.log("task2");
 }
 
 const doTask3 = () => {
     sleep(3000);
-    console.log("task1");
+    console.log("task3");
 }
 
 async function Asnfun() {
