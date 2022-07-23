@@ -4,6 +4,7 @@ Return1 if any such pair exists else return 0.
 
 Problem Constraints
 1 <= N <= 105 -103 <= A[i]<= 103 -105 <= B <= 105
+
 Input Format
 First argument is an integer array A of size N. Second argument is an integer B.
 
