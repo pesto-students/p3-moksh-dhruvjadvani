@@ -12,6 +12,9 @@ k = 3
 Output: 8 9 2 4 7
 
 Explanation:
+
 Rotate 1: 4 -> 7 -> 8 -> 9 -> 2
+
 Rotate 2: 7 -> 8 -> 9 -> 2 -> 4
+
 Rotate 3: 8 -> 9 -> 2 -> 4 -> 7
