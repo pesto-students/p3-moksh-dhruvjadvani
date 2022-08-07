@@ -7,11 +7,13 @@ Example 1:
 ![image](https://user-images.githubusercontent.com/25152105/183306150-11957db3-2e26-41ff-8d74-0d2b6765fa8d.png)
 
 Input: root = [3,9,20,null,null,15,7]
+
 Output: 3
 
 Example 2:
 
 Input: root = [1,null,2]
+
 Output: 2
  
 Constraints:
